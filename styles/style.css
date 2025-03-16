@@ -388,10 +388,7 @@ header{
     transform: translateY(-6px);
 }
 
-embed, iframe {
-    width: 100vw;
-    height: 100vh;
-}
+
 
 
 
@@ -400,6 +397,11 @@ embed, iframe {
     
     header{
         height: 60px;
+    }
+
+    embed, iframe {
+        width: 100vw;
+        height: 100vh;
     }
 
     .header-menu-mobile{
