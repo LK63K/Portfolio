@@ -388,6 +388,11 @@ header{
     transform: translateY(-6px);
 }
 
+embed, iframe {
+    width: 100vw;
+    height: 100vh;
+}
+
 
 
 
@@ -410,7 +415,10 @@ header{
 
     .presentation img{
         width: 75%;
+
     }
+
+    
 
     #accueil{
         margin-top: 60px;
