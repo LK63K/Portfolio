@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:"Montserrat",sans-serif ;
+}
+
+
+
+.hero-banner{
+    width: 100%;
+    height: 80vh;
+    aspect-ratio: 16/9;
+    background: #000;
+    position: relative;
+    
+}
+
+.header-menu-mobile{
+    display: none;
+}
+
+
+
+.hero-bannerimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    
+    
+}
+
+.btncv{
+    display: inline-block;
+    padding: 10px 30px;
+    background: white;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.btncv:hover {
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+
+
+
+.presentation{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.aligncenter{
+    align-items: center;
+}
+
+.logoreseaux{
+    padding-top: 2rem;
+
+}
+
+.reseaux .logoreseaux a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 10px;
+    color: black;
+    background-color: #fff;
+    transition: .5s;
+    box-shadow: 0 0 10px;
+    
+}
+
+.reseaux .logoreseaux a:hover{
+    background: transparent;
+    color: #fff;
+}
+
+
+.presentation h1{
+    font-size: 5rem;
+    color: white;
+}
+
+.presentation p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.presentation img{
+    width: 60%;
+}
+
+.section{
+    padding: 100px 0;
+
+}
+
+.boxed{
+    max-width: 80vw;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.green{
+    color: #00f600;
+}
+
+.yellow{
+    color: #000cb2;
+}
+
+.flex1{
+    display: flex;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w25{
+    width:25%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w32{
+    width: 32%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justcenter{
+    justify-content: center;
+}
+
+h2{
+    font-size: 3rem;
+    
+}
+
+.gap20{
+    gap: 20px;
+}
+
+p{
+    font-size: 1.5rem !important;
+    line-height: 1.5em;
+    
+}
+
+.dark{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+    color: #fff;
+
+}
+
+.dark h2{
+    padding-bottom: 50px;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+
+.skill img{
+    width: 50%;
+    height:100px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.skill{
+    background-color: #ffffff29;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.skill h3{
+    padding-top:20px ;
+}
+
+.realisations{
+    height: auto;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+}
+
+.realisations a{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.realisations img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(90%);
+    transition: 400ms;
+    
+}
+
+.realisations:hover img{
+    transform: scale(1.2);
+}
+
+
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+
+
+.realisations h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 2rem;
+    width: max-content;
+    transition: .4s ease;
+    opacity: 0;
+    
+    
+}
+
+.realisations:hover h3{
+    opacity: 0;
+}
+
+.nom h2{
+    padding-bottom: 50px;
+}
+
+.icon{
+    display: block;
+    font-size: 3rem !important;
+    
+}
+
+.label{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.value{
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.contact{
+    border: solid 2px #fff;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+
+
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 1px 1px 25px rgba(0,0,0,0.7);
+}
+
+.header-logo{
+    display: block;
+}
+
+.header-logo img{
+    width: 80px
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.btnnav{
+    display: inline-block;
+    padding: 10px 20px;
+    background:#333;
+    border-radius: 40px;
+    border: 2px solid black;
+    color: white;
+    transition:.5s;
+
+}
+
+.btnnav:hover{
+    background: transparent;
+    color: black;
+    
+}
+
+
+.navigation{
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+
+}
+
+.header-menu li a{
+    transition: .4s;
+}
+
+.header-menu li a:hover{
+    color: blue;
+    transform: translateY(-6px);
+}
+
+
+
+
+@media(max-width:810px){
+    
+    header{
+        height: 60px;
+    }
+
+    .header-menu-mobile{
+        display: block;
+        border: 0px;
+        background-color: #fff;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 991;
+    }
+
+    
+
+
+.header-menu{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    display: none;
+
+}
+
+
+.active{
+    display: flex;
+}
+
+.header-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.realisations:hover h3{
+    opacity: 0;
+}
+
+
+
+    .hero-banner{
+        height: 80vh;
+    }
+
+
+    .presentation{
+        width: 90%;
+    }
+
+    .presentation p{
+        margin-top: 10px;
+        text-wrap: balance;
+        font-size: 1.1rem !important;
+    }
+
+    .presentation h1{
+        font-size: 2rem;
+    }
+
+    .tocolumn{
+        flex-direction: column;
+    }
+
+    .mCenter{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .wm100{
+        width: 100% !important;
+        
+    }
+
+    .wm50{
+        width: 50%;
+    }
+
+    .wm47{
+        width: 47%;
+
+    }
+
+    .section{
+        padding: 50px 0;
+    }
+
+    .boxed{
+        max-width: 90%;
+    }
+
+    h2{
+        font-size: 2rem;
+        padding-bottom: 40px;
+
+    }
+    }
+
+    .mgap20{
+        gap: 20px;
+    }
+
+   
+
+    
+    
+
+    
+
+    
+
+    
