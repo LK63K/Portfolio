@@ -28,12 +28,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
-    
-    /* aspect-ratio: 16/9;
-    background: #000;
-    position: relative; */
-    
 }
 
 .header-menu-mobile{
@@ -70,6 +66,10 @@ body{
 .btncv:hover {
     background: transparent;
     box-shadow: none;
+    color: #fff;
+}
+
+.contact a{
     color: #fff;
 }
 
