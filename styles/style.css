@@ -30,6 +30,7 @@ body{
     justify-content: center;
     align-items: center;
 
+
 }
 
 .header-menu-mobile{
@@ -454,6 +455,7 @@ header{
 
     .hero-banner{
         height: 80vh;
+        background-size: cover;
 
     }
 
