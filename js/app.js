@@ -17,3 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+
+// Fonction alternative pour le menu mobile (legacy)
+function openMenu() {
+  const menu = document.querySelector(".header-menu");
+  const menuIcon = document.querySelector("header .material-icons");
+  
+  menu.classList.toggle("active");
+  menuIcon.innerHTML = menu.classList.contains("active") ? "close" : "menu";
+}
