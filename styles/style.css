@@ -144,23 +144,6 @@ body{
     margin-top: 130px; /* Ajusté pour la bande de notification */
 }
 
-.btncv{
-    display: inline-block;
-    padding: 10px 30px;
-    background: white;
-    border-radius: 40px;
-    border: 2px solid #fff;
-    box-shadow: 0 0 10px #fff;
-    color: #333;
-    transition: .5s;
-    font-weight: 500;
-}
-
-.btncv:hover {
-    background: transparent;
-    box-shadow: none;
-    color: #fff;
-}
 
 .contact a{
     color: #fff;
@@ -188,7 +171,7 @@ body{
 }
 
 .logoreseaux{
-    padding-top: 2rem;
+    
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
